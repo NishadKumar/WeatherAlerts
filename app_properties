@@ -1,8 +1,8 @@
-APP_SERVER_PORT=5000
-WEATHER_API_KEY=dFA3JlEQQosL2iaXC9Enyo26Pgjm5i2I
+APP_SERVER_PORT=<PORT NUMBER TO LISTEN>
+WEATHER_API_KEY=<ACCU WEATHER API KEY>
 WEATHER_LOCATION_API_URI=http://dataservice.accuweather.com/locations/v1/
 WEATHER_CURRENT_CONDITIONS_API_URI=http://dataservice.accuweather.com/currentconditions/v1/
-BIG_PANDA_API_KEY=a8f2b51c7144d4ce2a3f5a2a3a4c7269
+BIG_PANDA_API_KEY=<BIG PANDA API KEY>
 BIG_PANDA_ALERTS_API_URI=https://api.bigpanda.io/data/v2/alerts
-BIG_PANDA_AUTH=Bearer b55e046dfddfeb59b518165fbcbff27b
+BIG_PANDA_AUTH=Bearer <Token ID>
 FILE_PATH=./datafile.json
