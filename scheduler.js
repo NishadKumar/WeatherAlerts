@@ -6,7 +6,7 @@ let properties = PropertiesReader('./app_properties');
 const FILE_PATH = properties.get('FILE_PATH');
 
 
-//Cron job which acts as a scheduler to lookup the in-memory file every minute to keep pushing alerts to BigPanda 
+//Cron job which acts as a scheduler to lookup the in-memory file every minute to keep pushing alerts to BigPanda. Configurable as per the needs 
 cron.schedule('* * * * *', async () => {
 	try {
 		console.log("Running the job every minute..");
