@@ -13,7 +13,7 @@ To build an integration to request the current weather conditions from AccuWeath
 Git clone the master branch on your local system
 Run npm install 
 
-Change directory to the nishad-app folder.
+Change directory to the project folder.
 Make the script(cron job) executable with command chmod +x tasks.sh
 Run the file ./tasks.sh
 
